@@ -1,0 +1,81 @@
+_app.controller("BodyCtrl",function($scope){
+			$scope.names=[
+			   {
+			   	"chinese":"100分",
+			   	"math":"80分",
+			   	"english":"90分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   },
+			   {
+			   	"chinese":"90分",
+			   	"math":"83分",
+			   	"english":"30分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   },
+			   {
+			   	"chinese":"30分",
+			   	"math":"80分",
+			   	"english":"50分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   },
+			   {
+			   	"chinese":"500分",
+			   	"math":"80分",
+			   	"english":"60分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   },
+			   {
+			   	"chinese":"90分",
+			   	"math":"45分",
+			   	"english":"20分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   }
+			   ,
+			   {
+			   	"chinese":"90分",
+			   	"math":"45分",
+			   	"english":"20分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   }
+			   ,
+			   {
+			   	"chinese":"90分",
+			   	"math":"45分",
+			   	"english":"20分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   }
+			   ,
+			   {
+			   	"chinese":"90分",
+			   	"math":"45分",
+			   	"english":"20分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   }
+			   ,
+			   {
+			   	"chinese":"90分",
+			   	"math":"45分",
+			   	"english":"20分",
+			   	"like":"0",
+			   	"unlike":"0"
+			   }
+			
+			]
+			$scope.xihuan= function(name,id){
+				name.like++;
+			}
+			$scope.buxihuan= function(name,id){
+				name.unlike++;
+			}
+			
+			
+			
+		});

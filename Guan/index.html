@@ -1,0 +1,25 @@
+		<table class="table table-hover table table-striped" ng-controller="BodyCtrl">
+			<tr>
+				<td class="col-lg-1">考试次数</td>
+				<td>语文</td>
+				<td>数学</td>
+				<td>外语</td>
+				<td class="col-lg-1">喜欢</td>
+				<td class="col-lg-1">不喜欢</td>
+				<td class="col-lg-1">OK</td>
+				<td class="col-lg-1">NO</td>
+				
+			</tr>
+			<tr ng-repeat="name in names">
+				<td>第{{$index+1}}次</td>
+				<td>{{name.chinese}}</td>
+				<td>{{name.math}}</td>
+				<td>{{name.english}}</td>
+				<td>{{name.like}}</td>
+				<td>{{name.unlike}}</td>
+				<td><span class="btn btn-success btn-xs" ng-click="xihuan(name,$index)">喜欢</span></td>
+				<td><span class="btn btn-danger btn-xs" ng-click="buxihuan(name,$index)">不喜欢</span></td>
+			</tr>
+		</table>
+
+

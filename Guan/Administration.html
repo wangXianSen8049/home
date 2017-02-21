@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AngularApp">
+	<head>
+		<meta charset="utf-8" />
+		<title>后台管理</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/guanli.css" />
+		
+	</head>
+	<body>
+		<div class="nav_out">
+			<div class="nav">
+				<img src="img/330575_164352567115_2_02.png"  class=" img"/>
+				<span>
+					<img src="img/images/330575_164352_06.png" />
+					<p><a href="">立项项目</a></p>
+				</span>
+				<span>
+					<img src="img/images/330575_164352_08.png" />
+					<p><a href="">设计项目</a></p>
+				</span>
+				<span>
+					<img src="img/images/330575_164352_10.png" />
+					<p><a href="">开工项目</a></p>
+				</span>
+				
+				<ul ng-controller="er">
+					<li ng-repeat="key in keys"><a href="{{key.k}}">{{key.h}}</a></li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="zuo" ng-controller="zuo">
+				<ul>
+					<li ng-repeat="name in names">
+						<a href="{{name.m}}" ng-mousedown="dang">{{name.n}}</a>
+					</li>
+				</ul>
+				
+			</div>
+			<div class="you" ng-view></div>
+		</div>
+	</body>
+	<script type="text/javascript" src="AngularJS/libs/angular.min.js"></script>
+	<script type="text/javascript" src="AngularJS/libs/angular-route.js"></script>
+		<script type="text/javascript">
+			var _app=angular.module("AngularApp",['ngRoute']);
+			_app.controller("zuo",function($scope){
+				$scope.names=[
+				{"n":"▶用户首页","m":"#!/index"},
+				{"n":"▶信息管理","m":"#!/about"},
+				{"n":"▶联系信息","m":"#!/post"},
+				{"n":"▶密码管理","m":"#!/index"},
+				{"n":"▶项目信息","m":"#!/index"},	
+				{"n":"▶旧版本查看记录","m":"#!/index"},
+				{"n":"▶产品管理","m":"#!/index"},
+				{"n":"▶案例管理","m":"#!/post"},
+				{"n":"▶项目信息","m":"#!/index"},
+				{"n":"▶用户管理","m":"#!/index"},
+				{"n":"▶风格管理","m":"#!/post"},
+				{"n":"▶退出系统","m":"#!/index"},
+				]
+				
+					
+			});
+			_app.controller("dang",function(){
+				alert("ok");
+			});
+			_app.controller("er",function($scope){
+				$scope.keys=[
+					{"h":"网站首页","k":""},
+					{"h":"展会展览","k":""},
+					{"h":"品牌大全","k":""},
+					{"h":"效果社区","k":""},
+					{"h":"工程百科","k":""},
+				]
+			});
+			_app.config(function($routeProvider){
+		            $routeProvider.when("/index",{
+		                templateUrl:"index.html",
+		                controller:"BodyCtrl"
+		            }).when("/about",{
+	               		templateUrl:"about.html",
+	                	controller:"AboutController"
+	            	}).when("/post",{
+	                	templateUrl:"post.html",
+	                	controller:"PostController"
+	            	})
+		    });
+			
+		</script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/about.js"></script>
+		<script type="text/javascript" src="js/post.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		
+</html>
