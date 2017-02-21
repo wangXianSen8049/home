@@ -6,16 +6,16 @@
 	</head>
 	<style>
 	    *{margin: 0; padding:0;}
-		canvas{background:darkgray;}
+		 div{width: 600px; height: 400px;margin: 0 auto; background: url("img/d0.jpg") no-repeat center;margin-top: 150px;display: flex;}
+	     
+	     a{padding: 10px; background: white;margin-left: 40px;margin-top: 50px; cursor: pointer;align-items: center;height: 30px; line-height:30px;text-decoration:none;}
+	     a:hover{background: slateblue; color: white;}
 	</style>
 	<body>
-		<canvas id="canvas" width="500" height="500"></canvas>
+		<div>
+			<a href="https://wangxiansen8049.github.io/home/%E9%A1%B9%E7%9B%AE/ViVo.html">vivo项目</a>
+			<a href="https://wangxiansen8049.github.io/home/Guan/Administration.html">后台管理</a>
+		</div>
 	</body>
-	<script type="text/javascript">
-		var canvas = document.getElementById("canvas");
-		var context= canvas.getContext("2d");
-		context.arc(100,100,50,Math.PI*1/2,Math.PI*3/2,true);
-		context.fillStyle = "red";
-		context.fill();
-	</script>
+	
 </html>
