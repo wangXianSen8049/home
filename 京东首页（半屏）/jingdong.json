@@ -1,0 +1,100 @@
+{
+	"1001":{
+		"title":"家用电器",
+		"url":"http://www.jiadian.com",
+		"icon":"images/icon.jpg",
+		"top":1,
+		"display":1,
+		"sort":0,
+		"children":{
+			"1001001":{
+				"title":"空调",
+				"url":"http://jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			},
+			"1001002":{
+				"title":"电视",
+				"url":"http://www.jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			},
+			"1001003":{
+				"title":"洗衣机",
+				"url":"http://www.jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			},
+			"1001004":{
+				"title":"厨卫大电",
+				"url":"http://www.jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			}
+			"1001005":{
+				"title":"厨卫小电",
+				"url":"http://www.jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			}
+			"1001006":{
+				"title":"生活电器",
+				"url":"http://www.jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			}
+			"1001007":{
+				"title":"个人户康",
+				"url":"http://www.jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			}
+			"1001008":{
+				"title":"家庭影院",
+				"url":"http://www.jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			}
+			"1001009":{
+				"title":"进口电器",
+				"url":"http://www.jiadian.com",
+				"icon":"images/icon.jpg",
+				"top":1,
+				"display":1,
+				"sort":0
+			}
+			
+			
+			
+			
+			
+		}
+	},
+	"1002":{
+		"title":"家用电器",
+		"url":"http://www.jd.com",
+		"icon":"images/icon.jpg",
+		"top":1,
+		"display":1,
+		"sort":0,
+		"children":{}
+	
+	
+	}
+}
