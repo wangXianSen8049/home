@@ -1,0 +1,88 @@
+html,body{width: 100%;}
+.nav_out{width: 100%;height: auto;border-bottom: 1px solid #f2f2f2;}
+	.nav{width: 1423px; height: 80px;margin: 0 auto;min-height: 60px;}
+	.nav .img{float: left;display: block;margin-left: 112px;margin-top:10px;margin-right: 50px;};
+	.nav ul{float: left;margin-left: 112px; width:auto; height:80px;display: block;}
+	.nav li{float: left;text-align: center;}
+	.nav li a{font-size: 16px; color: #666666; line-height: 80px;border-right: 1px #e7e7e7 solid;width: 106px; height: 80px;display: inline-block;}
+	.nav li:first-child{border-left: 1px #e7e7e7 solid;}
+	.nav li a:hover{background:#008cd6;color: white;}
+	.nav span{border: 1px #e7e7e7 solid; width: 42px;border-radius: 50%; height: 42px;display: block;float: right;margin-right: 18px;margin-top: 15px;}
+	.nav span a{width: 42px;border-radius: 50%; height: 42px;display: block;}
+	.nav span:hover{background:#008cd6;}
+	.nav .span1{margin-right: 110px;}
+	.nav .span1 a{position: relative; background-image: url(../img/shop/vivo-head-ico_7a552f5.png);background-position: 0px -85px;}
+	.nav .span1 a:hover{background-position: 0px -127px;}
+	.nav .span1 a span{width: 16px;height: 16px;line-height: 16px;text-align: center;vertical-align: middle;overflow: hidden;background: #e60012;color: #fff;font-size: 12px;position: absolute;right:-17px;top: -10px; font-family: tahoma;border-radius: 50%;}
+	.nav .span2 a{background-image: url(../img/shop/vivo-head-ico_7a552f5.png);background-position: -43px -0px;}
+	.nav .span2 a:hover{background-position: -43px -43px;}
+	.nav .span3 a{background-image: url(../img/shop/vivo-head-ico_7a552f5.png);background-position: 0px 0px;}
+	.nav .span3 a:hover{background-position: 0px -42px;}
+.banner_out{width: 100%;height: auto;}
+	.banner{width: 1423px;height: 600px;margin: 0 auto;position: relative;overflow: hidden;}
+	.banner div{width: 1920px;height: 600px;position:absolute;left: 50%;margin-left: -960px;}
+.main_out{width: 100%;height: auto; overflow-x:hidden;}
+	.main{width: 1423px; height:6335px;margin: 0 auto;overflow: hidden;background: #f2f2f2;}	
+	.main div{width: 1920px;height:auto;position:absolute;left: 50%;margin-left: -960px;}
+.main1_out{width:100%;height:auto;border-top:#e8e8e9 solid 1px;border-bottom: #e8e8e9 solid 1px;background:#fafafa;}
+	.main1{width: 1200px;height: 86px;margin: 0 auto;background: #fafafa;}	
+	.main1 ul{width: 1200px;height: 86px;}
+	.main1 ul li{float: left;width: 25%;text-align: left;padding-top: 14px;}
+	.main1 ul li b{float: left;vertical-align: middle;width: 60px;height: 60px;overflow: hidden;vertical-align: middle;background:url(../img/shop/footer-icon_02a1be2.png) no-repeat 0 0;}
+    .main1 ul li .b3{background-position: -124px 0;}
+    .main1 ul li .b4{background-position: -185px 0;}
+    .main1 ul li .b2{background-position: -62px 0;}
+    .main1 ul li p{color: #3d3d3d;float: left;padding-left: 10px;font-size: 18px;height: 60px;line-height: 60px;}
+    .main1 ul li p span{color: #3d3d3d;font-size: 30px;vertical-align: middle;padding-right: 10px;position: relative;top: -2px;}
+.fot_out{width: 100%;height: auto;background: #fafafa;overflow: hidden;}
+	.fot{width: 1200px; height: 188px; margin: 0 auto;margin-top: 30px; margin-bottom: 30px;}
+	.fot .a1{width: 20%;float: left;}
+	.fot .a1 dd:hover{color: #008cd6;}
+	.fot .a1 dd a:hover{color: #008cd6;}
+	.fot .a1 dt{color: #008cd6;font-size: 16px;padding-bottom: 10px;}
+	.fot .a1 dt .b1{display: inline-block;vertical-align: middle;width: 28px;height: 28px;overflow: hidden;background:url(../img/shop/footer-icon_02a1be2.png) no-repeat  0 -61px;margin-right: 5px;}
+	.fot .a1 dt .b2{display: inline-block;vertical-align: middle;width: 28px;height: 28px;overflow: hidden;background:url(../img/shop/footer-icon_02a1be2.png) no-repeat  -30px -61px;margin-right: 5px;}
+	.fot .a1 dt .b3{display: inline-block;vertical-align: middle;width: 28px;height: 28px;overflow: hidden;background:url(../img/shop/footer-icon_02a1be2.png) no-repeat -64px -61px;margin-right: 5px;}
+	.fot .a1 dt .b4{display: inline-block;vertical-align: middle;width: 28px;height: 28px;overflow: hidden;background:url(../img/shop/footer-icon_02a1be2.png) no-repeat  -93px -61px;margin-right: 5px;}
+	.fot .a1 dt .b5{display: inline-block;vertical-align: middle;width: 28px;height: 28px;overflow: hidden;background:url(../img/shop/footer-icon_02a1be2.png) no-repeat -123px -61px;margin-right: 5px;}
+	.fot .a1 dd a{line-height: 30px;color: #999;height: 30px;}
+	.fot .a1 dd {line-height: 30px;color: #999;height: 30px;}
+.foot_out{width: 100%;height: 107px;background: #202223;position: relative;}
+	.foot{width: 1200px; height: 47px;margin: 0 auto;position: absolute;top: 30px;left: 112px;}
+	.foot .you{color: #ccc;position: relative;float: right;font-size: 14px;}
+	.foot .you a{width: 27px;height: 27px;border-radius: 3px; display: inline-block;margin-left: 8px;background: #4d4e4f;vertical-align: middle;}
+	
+	.foot .you a:first-child:hover{background: red;}
+	.foot .you a:nth-child(2):hover{background:slateblue;}
+	.foot .you a:nth-child(3):hover{background:blue;}
+	.foot .you a:nth-child(4):hover{background:green;}
+	.foot .you .img2{position: absolute;left: 160px; top: -160px;display: none;}
+	.foot .you .s1 b{background-size: 135px 54px;width: 27px;height: 27px;overflow: hidden;display: inline-block;background:url(../img/shop/vivo-sns-ico_b902584.png) no-repeat 0px 0px;}
+	.foot .you .s2 b{background-size: -27px 0;width: 27px;height: 27px;overflow: hidden;display: inline-block;background:url(../img/shop/vivo-sns-ico_b902584.png) no-repeat -27px 0;}
+	.foot .you .s3 b{background-size: -108px -27px;width: 27px;height: 27px;overflow: hidden;display: inline-block;background:url(../img/shop/vivo-sns-ico_b902584.png) no-repeat -108px -27px;}
+	.foot .you .s4 b{background-size: -54px -27px;width: 27px;height: 27px;overflow: hidden;display: inline-block;background:url(../img/shop/vivo-sns-ico_b902584.png) no-repeat -54px -27px;}
+	.foot .zuo{color: #666;padding-top: 5px;width: 600px;float: left;font-size: 14px;}
+	.foot .zuo .c1{width: 95px;height: 30px;float: left;position: relative;vertical-align: middle;margin-right: 20px;background: url(../img/shop/vivo-footer-logo_018fcf3.jpg) no-repeat;}
+	.foot .zuo a{color: #666666;}
+	.foot .zuo a:hover{color: #008cd6;}
+	.ce{position: fixed;right: 14px;top: 60%;z-index: 99;}
+	.ce li a{position: relative;display: block;width: 47px;height: 49px;background: url(../img/shop/icon-online-service_b441fd1.png) center center no-repeat;margin-bottom: .5px;}
+    
+    .ce li .ce2{background: url(../img/shop/icon-qrcode_b904055.png) center center no-repeat;) center center no-repeat;}
+    .ce li .ce3{background: url(../img/shop/icon-feedback_ff5a377.png) center center no-repeat;) center center no-repeat;}
+    .ce li .ce4{background: url(../img/shop/icon-backtop_d05a940.png) center center no-repeat;) center center no-repeat;}
+	.ce li {background: #c3c3c3}
+	.ce li:hover{background:#008cd6;}
+
+
+
+
+
+
+
+
+
+
+
+
+

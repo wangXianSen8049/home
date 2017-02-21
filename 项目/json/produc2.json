@@ -1,0 +1,50 @@
+{
+"1":{
+	"name":"Xplay5",
+	"img":"img/product/b1.png"
+	},
+"2":{
+	"name":"Y51电信高配版",
+	"img":"img/product/b2.png"
+	},
+"3":{
+	"name":"Y51移动定制版",
+	"img":"img/product/b3.png"
+	},
+"4":{
+	"name":"Y51全网通高配版",
+	"img":"img/product/b4.png"
+	},
+"5":{
+	"name":"V3全网通",
+	"img":"img/product/b5.png"
+	},
+"6":{
+	"name":"V3Max全网通",
+	"img":"img/product/b6.png"
+	},
+"7":{
+	"name":"X6S Plus移动版",
+	"img":"img/product/b7.png"
+	},
+"8":{
+	"name":"X6S移动版",
+	"img":"img/product/b8.png"
+	},
+"9":{
+	"name":"V3Max",
+	"img":"img/product/b9.png"
+	},
+"10":{
+	"name":"V3",
+	"img":"img/product/b10.png"
+	},
+"11":{
+	"name":"X6S Plus远航版",
+	"img":"img/product/b11.png"
+	},
+"12":{
+	"name":"X6S Plus全网通",
+	"img":"img/product/b12.png"
+	}	
+}

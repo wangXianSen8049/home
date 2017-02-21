@@ -1,0 +1,50 @@
+{
+"1":{
+	"name":"Y35",
+	"img":"img/product/d1.png"
+	},
+"2":{
+	"name":"Y35A",
+	"img":"img/product/d2.png"
+	},
+"3":{
+	"name":"X5Pro",
+	"img":"img/product/d3.png"
+	},
+"4":{
+	"name":"X5Pro3G运存版",
+	"img":"img/product/d4.png"
+	},
+"5":{
+	"name":"X5Pro电信版",
+	"img":"img/product/d5.png"
+	},
+"6":{
+	"name":"X5Pro移动版",
+	"img":"img/product/d6.png"
+	},
+"7":{
+	"name":"Y37",
+	"img":"img/product/d7.png"
+	},
+"8":{
+	"name":"Y37A",
+	"img":"img/product/d8.png"
+	},
+"9":{
+	"name":"Y937",
+	"img":"img/product/d9.png"
+	},
+"10":{
+	"name":"X5Max铂金版",
+	"img":"img/product/d10.png"
+	},
+"11":{
+	"name":"Y33",
+	"img":"img/product/d11.png"
+	},
+"12":{
+	"name":"Y923",
+	"img":"img/product/d12.png"
+	}	
+}
